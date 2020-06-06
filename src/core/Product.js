@@ -37,7 +37,7 @@ const Product = (props) => {
       description={
         product &&
         product.description &&
-        product.description.substring(0, 10000)
+        product.description.substring(0, 20000)
       }
       className='container-fluid'
     >
